@@ -1,0 +1,139 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand img {
+    margin-right: 8px;
+}
+
+.carousel-inner img {
+    height: 230px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.carousel-item p {
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.btn-dark {
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    color: #222;
+    font-family: "Roboto";
+}
+
+section h1,
+section h3
+section p {
+    color: #111;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+footer img,
+section img {
+    max-height: 240px;
+}
+
+.training-heading{
+    color: #111;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+
+.hero-section {
+    background: #fff;
+}
+
+.hero-link {
+    color: #222;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.hero-link:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.mockup-container {
+    background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+    transform: rotate(3deg);
+    transition: transform 0.3s;
+}
+
+.mockup-container:hover {
+    transform: rotate(1deg);
+}
+
+.training-card {
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    min-height: 340px;
+    position: relative;
+}
+
+.training-card .card-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+
+
+.training-card .card-img-overlay {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 60%, rgba(0, 0, 0, 0.1) 100%);
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.giveaway-card {
+    background: #fff;
+    border: 2px dashed #222;
+    min-height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.giveaway-card .badge {
+    font-size: 0.85rem;
+    padding: 0.5em 1em;
+}
+
+.btn-dark,
+.btn-outline-dark {
+    border-radius: 2rem;
+    font-weight: 500;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+/* Responsive tweaks */
+@media (max-width: 991px) {
+
+    .training-card,
+    .giveaway-card {
+        min-height: 260px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .training-card,
+    .giveaway-card {
+        min-height: 180px;
+    }
+}
+
+
+
